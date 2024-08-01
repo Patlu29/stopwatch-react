@@ -1,0 +1,65 @@
+body{
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230928/pngtree-a-mesmerizing-3d-timepiece-the-stopwatch-image_13511088.png");
+  background-size: cover;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(0, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.link2:hover{
+  box-shadow: 0 0 5px rgb(0, 255, 255), 0 0 25px rgb(0, 255, 255), 0 0 50px rgb(0, 255, 255);
+}
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+}
+.link:hover{
+    box-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke;
+    border-radius: 20px;
+}
+.rainbow-border {
+    border: 5px solid;
+    border-image-slice: 1;
+    animation: rainbow 3s linear infinite;
+}
+
+    @keyframes rainbow {
+      0% {
+        border-image-source: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      }
+      16.6% {
+        border-image-source: linear-gradient(to right, orange, yellow, green, blue, indigo, violet, red);
+      }
+      33.3% {
+        border-image-source: linear-gradient(to right, yellow, green, blue, indigo, violet, red, orange);
+      }
+      50% {
+        border-image-source: linear-gradient(to right, green, blue, indigo, violet, red, orange, yellow);
+      }
+      66.6% {
+        border-image-source: linear-gradient(to right, blue, indigo, violet, red, orange, yellow, green);
+      }
+      83.3% {
+        border-image-source: linear-gradient(to right, indigo, violet, red, orange, yellow, green, blue);
+      }
+      100% {
+        border-image-source: linear-gradient(to right, violet, red, orange, yellow, green, blue, indigo);
+      }
+    }
+h2{
+  text-align: center;
+  }
+.h2{
+  padding-top: 200px;
+}
